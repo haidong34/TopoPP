@@ -99,9 +99,3 @@ Use fresh directories for GPU runs; `plan` reuses its calibration directory. Sel
 python -m unittest discover -s V1/tests -v
 python -m unittest discover -s V2/tests -v
 ```
-
-## Evidence
-
-Reported data are in [V1/results](V1/results) and [V2/results](V2/results). They come from project records and server screenshots; the raw archive is not bundled. Screenshot values are rounded to two decimals. Run `python V2/scripts/summarize_results.py` from the repository root to recompute the V2 tables.
-
-V1 profiling utilities reconstruct the documented procedure; the original profiler's exact GEMM shape was not recorded. The reorganized code passed **35 CPU checks** and has not been rerun on the GPU server.
