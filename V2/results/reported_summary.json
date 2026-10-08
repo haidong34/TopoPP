@@ -1,0 +1,20 @@
+{
+  "source": "User-supplied server terminal outputs and screenshots; original experiment JSON is not included",
+  "per_run_precision": "Two decimal places, as displayed in the screenshots",
+  "aggregation": "Median of three runs per scheme; latency entries are medians across per-run metrics, not pooled request statistics",
+  "default_partition": [10, 10, 10, 10],
+  "H0": {
+    "selected_partition": [9, 11, 11, 9],
+    "reference_iteration_coverage": 0.9945958646616542,
+    "terminal_reported_throughput_change_percent": 0.2321890992515789
+  },
+  "H1": {
+    "selected_partition": [11, 12, 6, 11],
+    "reference_iteration_coverage": 0.9945958646616542,
+    "terminal_reported_median_output_throughput": {
+      "A": 212.70892496330436,
+      "B": 221.80968066269483
+    },
+    "rounded_throughput_change_percent": 4.28
+  }
+}

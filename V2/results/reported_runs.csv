@@ -1,0 +1,13 @@
+condition,run,scheme,output_throughput_tok_s,median_ttft_ms,median_tpot_ms,p99_itl_ms,source_precision
+H0,1,A,269.29,940.13,22.46,24.51,screenshot_2_decimals
+H0,2,B,269.76,937.48,22.44,24.79,screenshot_2_decimals
+H0,3,B,269.91,945.53,22.43,24.58,screenshot_2_decimals
+H0,4,A,269.32,937.98,22.58,24.21,screenshot_2_decimals
+H0,5,A,268.96,940.10,22.55,24.72,screenshot_2_decimals
+H0,6,B,271.51,931.75,22.33,24.17,screenshot_2_decimals
+H1,1,A,213.25,1241.38,27.93,30.80,screenshot_2_decimals
+H1,2,B,221.81,1117.13,27.54,29.73,screenshot_2_decimals
+H1,3,B,221.33,1114.57,27.56,29.72,screenshot_2_decimals
+H1,4,A,212.71,1236.40,28.13,30.79,screenshot_2_decimals
+H1,5,A,211.81,1239.84,28.30,31.18,screenshot_2_decimals
+H1,6,B,221.97,1116.09,27.48,29.85,screenshot_2_decimals

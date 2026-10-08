@@ -1,0 +1,11 @@
+{
+  "unit": "relative",
+  "profile_state": "H1",
+  "source": "Normalized GPU timing ratios from the project progress record; not raw CUDA samples",
+  "results": [
+    {"gpu_id": 0, "relative_time": 1.0},
+    {"gpu_id": 1, "relative_time": 1.011},
+    {"gpu_id": 2, "relative_time": 2.229},
+    {"gpu_id": 3, "relative_time": 1.021}
+  ]
+}

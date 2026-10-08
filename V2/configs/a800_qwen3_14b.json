@@ -1,0 +1,33 @@
+{
+  "model": "/root/autodl-tmp/models/Qwen3-14B",
+  "served_model_name": "topopp-qwen3-14b",
+  "vllm_version": "0.10.1.1",
+  "gpu_ids": [0, 1, 2, 3],
+  "tp": 1,
+  "pp": 4,
+  "dtype": "bfloat16",
+  "host": "127.0.0.1",
+  "port": 8000,
+  "seed": 1234,
+  "gpu_memory_utilization": 0.9,
+  "max_model_len": 2048,
+  "max_num_seqs": 8,
+  "max_num_batched_tokens": 8192,
+  "block_size": 16,
+  "num_gpu_blocks_override": 1024,
+  "runtime_reserve_gib": 4,
+  "enforce_eager": false,
+  "expected_geometry": {
+    "layers": 40, "hidden_size": 5120, "attention_heads": 40,
+    "kv_heads": 8, "head_dim": 128, "vocab_size": 151936
+  },
+  "calibration": {
+    "deltas": [6], "warmup_prompts": 16, "num_prompts": 256,
+    "sample_every": 1, "context_bin": 128,
+    "min_samples": 5, "min_counts": 2, "min_coverage": 0.9
+  },
+  "benchmark": {"input_len": 1024, "output_len": 128, "concurrency": 8, "num_prompts": 128},
+  "contention": {"gpu": 2, "m": 8192, "n": 8192, "k": 8192, "warmup_seconds": 20},
+  "startup_timeout_seconds": 1800,
+  "benchmark_timeout_seconds": 1200
+}
